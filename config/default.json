@@ -1,0 +1,12 @@
+{
+  "auth": {
+    "github": {
+      "cookiePassword": "foobarbaz",
+      "clientId": "",
+      "clientSecret": ""
+    },
+    "cookie": {
+      "password": "fluxcapacitor"
+    }
+  }
+}
