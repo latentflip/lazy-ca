@@ -2,7 +2,7 @@ var Hapi = require('hapi')
 var Good = require('good')
 var Bell = require('bell')
 var Cookie = require('hapi-auth-cookie')
-var Config = require('config');
+var Config = require('getconfig');
 
 var server = new Hapi.Server()
 server.connection({ port: 3000 })
