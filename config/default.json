@@ -8,5 +8,8 @@
     "cookie": {
       "password": "fluxcapacitor"
     }
+  },
+  "db": {
+    "connection": "postgres://lazy_ca:password@localhost/lazy_ca"
   }
 }
