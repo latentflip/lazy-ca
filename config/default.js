@@ -1,9 +1,9 @@
-{
+module.exports = {
   "auth": {
     "github": {
       "cookiePassword": "foobarbaz",
-      "clientId": "",
-      "clientSecret": ""
+      "clientId": process.env.GITHUB_CLIENT_ID,
+      "clientSecret": process.env.GITHUB_CLIENT_SECRET
     },
     "cookie": {
       "password": "fluxcapacitor"
