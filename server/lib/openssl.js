@@ -88,12 +88,12 @@ exports.generateRootCA = function (form, done) {
   })
 }
 
-exports.generateRootCA({
-  country: 'US',
-  state: 'WA',
-  city: 'Richland',
-  org: '&yet',
-  dept: 'Ops',
-  name: 'Ops Overlords',
-  email: 'ops@andyet.com'
-}, console.log);
+//exports.generateRootCA({
+//  country: 'US',
+//  state: 'WA',
+//  city: 'Richland',
+//  org: '&yet',
+//  dept: 'Ops',
+//  name: 'Ops Overlords',
+//  email: 'ops@andyet.com'
+//}, console.log);

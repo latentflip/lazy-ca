@@ -6,9 +6,6 @@ var Config = require('getconfig');
 var User = require('./models/user');
 var openssl = require('./lib/openssl');
 
-console.log(Config);
-console.log(process.env);
-
 var server = new Hapi.Server()
 server.connection({ port: process.env.PORT || 3000 })
 
