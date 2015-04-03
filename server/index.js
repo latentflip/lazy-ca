@@ -7,7 +7,7 @@ var User = require('./models/user');
 var openssl = require('./lib/openssl');
 
 var server = new Hapi.Server()
-server.connection({ port: 3000 })
+server.connection({ port: process.env.PORT || 3000 })
 
 server.register([ Bell, Cookie ], (err) => {
   if (err) {
