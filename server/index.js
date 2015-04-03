@@ -67,7 +67,7 @@ server.register([ Bell, Cookie ], (err) => {
     config: {
       auth: 'session',
       handler: (request, reply) => {
-        reply(request.auth.credentials)
+        reply("<a href='/cas/new'>Make a CA</a>");
       }
     }
   })
