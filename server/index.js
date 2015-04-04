@@ -6,10 +6,15 @@ var Config = require('getconfig');
 var User = require('./models/user');
 var openssl = require('./lib/openssl');
 
-var server = new Hapi.Server()
-server.connection({ port: process.env.PORT || 3000 })
+var server = new Hapi.Server({
+  debug: { request: ['error'] }
+})
 
-server.register([ Bell, Cookie ], (err) => {
+server.connection({
+  port: process.env.PORT || 3000
+})
+
+server.register([ Good, Bell, Cookie ], (err) => {
   if (err) {
     throw err
   }
