@@ -6,6 +6,6 @@ module.exports = {
     }
   },
   "db": {
-    "connecion": process.env.DATABASE_URL
+    "connection": process.env.DATABASE_URL
   }
 }

@@ -5,8 +5,6 @@ var Config = require('getconfig');
 var User = require('./models/user');
 var openssl = require('./lib/openssl');
 
-console.log(Config);
-
 var server = new Hapi.Server({
   debug: { request: ['error'] }
 })
