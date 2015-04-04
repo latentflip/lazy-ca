@@ -9,7 +9,6 @@
     "bell": "^2.2.0",
     "bookshelf": "^0.7.9",
     "getconfig": "^2.1.0",
-    "good": "^5.1.2",
     "hapi": "^8.4.0",
     "hapi-auth-cookie": "^2.0.0",
     "knex": "^0.7.6",

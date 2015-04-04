@@ -1,5 +1,4 @@
 var Hapi = require('hapi')
-var Good = require('good')
 var Bell = require('bell')
 var Cookie = require('hapi-auth-cookie')
 var Config = require('getconfig');
@@ -14,7 +13,7 @@ server.connection({
   port: process.env.PORT || 3000
 })
 
-server.register([ Good, Bell, Cookie ], (err) => {
+server.register([ Bell, Cookie ], (err) => {
   if (err) {
     throw err
   }
